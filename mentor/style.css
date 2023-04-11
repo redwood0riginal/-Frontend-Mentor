@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(103, 103, 103, 0.738);
+}
+
+.container {
+  width: 600px;
+  height: 50vh;
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 20px;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  background: linear-gradient(
+    to right top,
+    #0015ff,
+    #4711fa,
+    #630ff5,
+    #780ff0,
+    #8812eb
+  );
+  border-radius: 20px;
+}
+.result h2 {
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-bottom: -25px;
+  color: rgb(170, 170, 170);
+}
+.result div {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(
+    to bottom right,
+    #0015ff45,
+    #4711fa33,
+    #630ff536,
+    #780ff0,
+    #8912eb34
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 50%;
+}
+.result div span {
+  font-size: 12px;
+  color: rgb(170, 170, 170);
+}
+.result h1 {
+  text-transform: capitalize;
+  color: #ffffff;
+  font-size: 27px;
+  margin-top: -25px;
+}
+.result p {
+  margin-top: -25px;
+  max-width: 200px;
+  font-size: 13px;
+  text-transform: capitalize;
+  color: rgb(170, 170, 170);
+  font-weight: 600;
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: start;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+}
+.boxs {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.sum_boxes {
+  padding: 0 10px;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.sum_boxes p {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+}
+.sum_boxes p span {
+  color: gray;
+}
+.sum_boxes.b1 {
+  background-color: rgba(128, 0, 0, 0.081);
+  color: rgb(207, 15, 15);
+}
+.sum_boxes.b2 {
+  background-color: rgba(255, 230, 7, 0.123);
+  color: rgb(255, 213, 0);
+}
+.sum_boxes.b3 {
+  background-color: rgba(0, 128, 0, 0.116);
+  color: green;
+}
+.sum_boxes.b4 {
+  background-color: rgba(11, 6, 145, 0.11);
+  color: blue;
+}
+.summary h1 {
+  font-size: 20px;
+  margin: 10px 0 0 -150px;
+  text-transform: capitalize;
+}
+.btn {
+  background-color: rgb(12, 12, 63);
+  padding: 15px 60px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  color: #ffffff;
+  border: 2px solid rgb(12, 12, 63);
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.btn:hover {
+  color: rgb(12, 12, 63);
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(12, 12, 63);
+  cursor: pointer;
+}
